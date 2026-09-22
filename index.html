@@ -24,7 +24,10 @@
       <header class="topbar">
         <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
         <div><p class="kicker" id="labIndex">LABORATOIRE 1</p><h1 id="labTitle">Arbitrer un budget</h1></div>
-        <div class="mode-chip">Simulation locale · aucune donnée transmise</div>
+        <div class="topbar-meta">
+          <strong class="author-name">Badr ABOUFARASSE, PhD</strong>
+          <div class="mode-chip">Simulation locale · aucune donnée transmise</div>
+        </div>
       </header>
       <section class="mission" aria-labelledby="missionTitle">
         <div><p class="section-label">VOTRE MISSION</p><h2 id="missionTitle"></h2><p id="missionText"></p></div>
@@ -51,6 +54,10 @@
         <div><p class="section-label">À VOUS DE DÉCIDER</p><h2 id="question"></h2><p>Rédigez une recommandation courte en citant au moins un résultat et une limite du modèle.</p></div>
         <div class="answer-area"><textarea id="answer" rows="4" placeholder="Notre recommandation est de… parce que… Cette conclusion dépend toutefois de…"></textarea><button class="secondary" id="showGuide">Afficher un guide d'analyse</button><div class="guide" id="guide"></div></div>
       </section>
+      <footer class="site-footer">
+        <span>© 2026 Badr ABOUFARASSE, PhD</span>
+        <span>Tous droits réservés</span>
+      </footer>
     </main>
   </div>
   <dialog id="resourceDialog"><button class="dialog-close" id="closeResources" aria-label="Fermer">×</button><p class="section-label">RESSOURCES DU COURS</p><h2>Boîte à outils mathématique</h2><div id="resourceContent" class="resource-grid"></div></dialog>

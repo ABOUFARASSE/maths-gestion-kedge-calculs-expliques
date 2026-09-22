@@ -22,3 +22,5 @@ Les valeurs par défaut ont été choisies afin que les étudiants puissent refa
 7. Piloter un lancement de produit
 
 L'application est statique. Python s'exécute dans le navigateur grâce à Pyodide et les graphiques utilisent Plotly.
+
+Déploiement automatique avec GitHub Pages.
